@@ -1,0 +1,22 @@
+nav ul{
+		display:inline;
+		font-size: 12px;
+		height:12px;
+		width: 100px;
+		float: right;
+		text-align: right;
+		position: right;
+
+}
+ul a{
+	text-decoration: none; 
+	color:black; 
+	text-align: right;
+}
+
+a{text-decoration: none}
+
+#button{
+		padding: 10px;
+		margin: 40px 40px 40 px 40px;
+}
