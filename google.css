@@ -1,22 +1,141 @@
-nav ul{
-		display:inline;
-		font-size: 12px;
-		height:12px;
-		width: 100px;
-		float: right;
-		text-align: right;
-		position: right;
-
-}
-ul a{
-	text-decoration: none; 
-	color:black; 
-	text-align: right;
+*{
+  padding:0;
+  margin:0;
 }
 
-a{text-decoration: none}
+a{
+  display: inline;
+  color: #404040;
+  text-decoration: none;
+  font-size: small;
+  font-family: Arial;
+}
 
-#button{
-		padding: 10px;
-		margin: 40px 40px 40 px 40px;
+a:hover{
+  text-decoration: underline;
+}
+
+/* Top Links */
+
+header{
+  display:block;
+  text-align: right;
+  padding-right:20px;
+}
+
+header li{
+  display:inline-block;
+  padding-right:15px;
+  padding-top:15px;
+  height:2px
+
+}
+
+#apps{
+  display:block;
+  position:relative;
+  top :-18px;
+  background-image:url('https://ssl.gstatic.com/gb/images/v1_2e543709.png');
+  background-size: 112px 1828px;
+    height: 30px;
+    width: 30px;
+    background-position: -51px -450px;
+    opacity : .55;
+}
+
+#sign-in-button{
+  display:inline-block;
+  background-color: #4285f4;
+  border-radius: 2px;
+    font-size:13px;
+    line-height:28px;
+    padding:0 11px;
+    font-family:arial;
+    font-weight:bold;
+  color:white;
+}
+
+/* Main body links */
+
+.mainbody{
+  display:block;
+  height:426px;
+
+}
+
+#google-picture{
+  display:block;
+  height:95px;
+  width:259px;
+  padding:112px 0 20px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+input[name="googlesearch"]{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border:1px solid #dcdcdc;
+  padding:0 8px;
+  line-height:29px;
+  min-width: 54px;
+  width:570px;
+  
+}
+
+input[name="googlesearch"]:hover{
+  border:1px solid gray;
+}
+
+input[name="googlesearch"]:focus{
+  outline:none;
+  border:1px solid #4285f4;
+}
+
+.mainbody-buttons a{
+  display:inline-block;
+  border:1px solid #dcdcdc;
+  padding:0 8px;
+  color:black;
+  background-color:#f5f5f5;
+  font-size : 11px; 
+  font-weight:bold;
+  line-height:29px;
+  min-width: 54px;
+  margin-top:20px;
+  margin-right:10px;
+  border-radius:2px;
+
+}
+
+.mainbody-buttons{
+  text-align: center;
+}
+
+/* Bottom links */
+
+footer{
+  display:block;
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height:40px;
+  width:100%;
+  background-color: #f2f2f2;
+}
+footer li{
+  display:inline-block;
+  padding:10px;
+  text-align: center;
+}
+.left-links{
+  float:left;
+  margin-left:10px;
+
+}
+.right-links{
+  float:right;
+  margin-right:16px;
 }
